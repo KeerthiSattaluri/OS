@@ -1,0 +1,10 @@
+i am a process with pid 5556
+fork returned 5557
+i am a process with pid 5556
+
+i am a process with pid 5556
+fork returned 0
+i am a process with pid 5557
+
+EXPLANATION:
+As the process changes,It's pid changes each time we execute.

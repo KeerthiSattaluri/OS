@@ -1,0 +1,34 @@
+we are in p1(A) process
+the process id is 6479
+we are in p1(A) process
+the process id is 6479
+we are in p2(b) process
+the process id is 6480
+the parent process id is 6479
+we are in p1(A) process
+the process id is 6479
+we are in p2(b) process
+the process id is 6480
+the parent process id is 6479
+we are in p4(d) process
+the process id is 6482
+the parent process id is 3273
+we are in p1(A) process
+the process id is 6479
+we are in p3(c) process
+the process id is 6481
+the parent process id is 3273
+we are in p6(f) process
+the process id is 6481
+the parent process id is 3273
+we are in p1(A) process
+the process id is 6479
+we are in p3(c) process
+the process id is 6481
+the parent process id is 3273
+we are in p5(e) process
+the process id is 6483
+the parent process id is 6481
+
+EXPLANATION:
+Here, when a is forked a P1(A) and it's child P2(B) is created.IF (P2 is a child then In P2(B) when b is forked , P4(D) is created)  ELSE(c is forked , P3(B) is created (In P3(B) , c is forked i.e P5(E) is created. IF ( P5(E) is a child , d is forked , P6(F) is created )). Hence A,B,C,D,E,F are shown with their child id and parent id. 

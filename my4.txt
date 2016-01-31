@@ -1,0 +1,8 @@
+i am a process with pid 5570
+i'm the child process with pid 5570
+
+i am a process with pid 5570
+i'm the child process with pid 5571
+
+EXPLANATION:
+As the process changes,It's pid changes each time we execute.

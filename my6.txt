@@ -1,0 +1,25 @@
+a.out
+fork3.c
+fork4.c
+fork.c
+fork.c~
+my1.txt
+my2.txt
+my3.txt
+my4.txt
+my5.txt
+my6.txt
+my.txt
+prog1.c
+prog2.c
+prog3.c
+prog4.c
+prog5.c
+prog.c
+program3.c
+program4.c
+
+
+EXPLANATION:
+execlp is used to replace the current process with another.
+When execlp is called from the child process , the child process is replaced by the file in the directory /bin/ls which lists the directories in bin.

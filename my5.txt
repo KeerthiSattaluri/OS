@@ -1,0 +1,38 @@
+before it forks!!
+this is a child process with pid 5769
+child process: 0
+child process: 1
+child process: 2
+child process: 3
+child process: 4
+child process: 5
+child process: 6
+child process: 7
+child process: 8
+child process: 9
+
+before it forks!!
+this is a parent process with pid 5768
+parent process: 0
+parent process: 1
+parent process: 2
+parent process: 3
+parent process: 4
+parent process: 5
+parent process: 6
+parent process: 7
+parent process: 8
+parent process: 9
+parent process: 10
+parent process: 11
+parent process: 12
+parent process: 13
+parent process: 14
+parent process: 15
+parent process: 16
+parent process: 17
+parent process: 18
+parent process: 19
+
+EXPLANATION:
+As the process changes,It's pid changes each time we execute.
